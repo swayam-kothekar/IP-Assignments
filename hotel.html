@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Hotel Reservation Form</title>
+</head>
+<body>
+    <h3>Hotel Reservation Form</h3>
+    <form>
+        <table>
+            <tr>
+                <td>
+                    <label for="firstname">First Name</label><br>
+                    <input type="text" id="firstname" name="firstname">
+                </td>
+                <td>
+                    <label for="lastname">Last Name</label><br>
+                    <input type="text" id="lastname" name="lastname">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="address1">Address Line 1</label><br>
+                    <input type="text" id="address1" name="address1">
+                </td>
+                <td>
+                    <label for="address2">Address Line 2</label><br>
+                    <input type="text" id="address2" name="address2">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="city">City</label><br>
+                    <input type="text" id="city" name="city">
+                </td>
+                <td>
+                    <label for="state">State</label><br>
+                    <input type="text" id="state" name="state">
+                </td>
+                <td>
+                    <label for="pin">Pincode</label><br>
+                    <input type="number" id="pin" name="pin">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="phno">Phone No.</label><br>
+                    <input type="number" id="phno" name="phno">
+                </td>
+                <td>
+                    <label for="email">Email Id</label><br>
+                    <input type="email" id="email" name="email">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="checkInDate">Check-in Date</label><br>
+                    <input type="date" id="checkInDate" name="checkInDate">
+                </td>
+                <td>
+                    <label for="checkInTime">Check-in Time</label><br>
+                    <input type="time" id="checkInTime" name="checkInTime" value="10:00">
+                </td>
+                <td>
+                    <label for="checkOutDate">Check-out Date</label><br>
+                    <input type="date" id="checkOutDate" name="checkOutDate">
+                </td>
+                <td>
+                    <label for="checkOutTime">Check-out Time</label><br>
+                    <input type="time" id="checkOutTime" name="checkOutTime" value="10:00">
+                </td>
+            </tr>
+        </table>
+        <table>
+            <tr>
+                <td>
+                    <label>Room Preference</label><br>
+                    <input type="radio" id="standard" name="roomPreference" value="Standard">
+                    <label for="standard">Standard</label>
+                    <input type="radio" id="delux" name="roomPreference" value="Deluxe">
+                    <label for="delux">Deluxe</label>
+                    <input type="radio" id="studio" name="roomPreference" value="Studio">
+                    <label for="studio">Studio</label>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label>No. of Adults</label><br>
+                    <input type="radio" id="adults1" name="adultno" value="1">
+                    <label for="adults1">1</label>
+                    <input type="radio" id="adults2" name="adultno" value="2">
+                    <label for="adults2">2</label>
+                    <input type="radio" id="adults3" name="adultno" value="3">
+                    <label for="adults3">3</label>
+                    <input type="radio" id="adults4" name="adultno" value="4">
+                    <label for="adults4">4</label>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label>No. of Children</label><br>
+                    <input type="radio" id="children1" name="childno" value="1">
+                    <label for="children1">1</label>
+                    <input type="radio" id="children2" name="childno" value="2">
+                    <label for="children2">2</label>
+                    <input type="radio" id="children3" name="childno" value="3">
+                    <label for="children3">3</label>
+                    <input type="radio" id="children4" name="childno" value="4">
+                    <label for="children4">4</label>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="specialInstructions">Special Instructions</label><br>
+                    <textarea id="specialInstructions" name="specialinstrc" rows="5" cols="50" placeholder="Enter any special instructions here"></textarea>
+                </td>
+            </tr>
+        </table>
+	<input type="submit" value="Submit">
+    </form>
+</body>
+</html>
